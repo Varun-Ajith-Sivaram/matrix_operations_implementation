@@ -19,7 +19,7 @@ void main()
     printf("\n Enter the no. of rows & columns (order) of matrix2: \n");
     scanf("%d %d",&p,&q);
     
-    int a[m][n],b[p][q],c[m][q];
+    int a[m][n],b[p][q],c[m][n];
     
     if((m!=p) || (n!=q))
     {
@@ -37,10 +37,10 @@ void main()
     mat_display(m,n,a); 
                 
     printf("\n   Enter the elements of matrix2: \n");
-    mat_read(m,n,b);
+    mat_read(p,q,b);
                 
     printf("\nMatrix2: \n");
-    mat_display(m,n,b);
+    mat_display(p,q,b);
     
     mat_add(m,n,a,b,c);
                 
