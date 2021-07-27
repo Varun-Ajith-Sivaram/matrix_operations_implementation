@@ -5,7 +5,7 @@ void mat_read(int x,int y,int[x][y]);
 void mat_display(int x, int y,int[x][y]);
 void mat_add(int x,int y,int[x][y],int[x][y],int[x][y]);
 
-int i,j,m,n,p,q,ch;
+int i,j,m,n,p,q;
 
 void main()
 {
