@@ -137,10 +137,8 @@ void main()
             break;
             
             case 4:
-            {
                 printf("\n   --> Exited the program\n");
-                exit(0);
-            }
+                break;
                 
             default:
                 printf("\n   --> Invalid choice, Enter a valid choice\n");
